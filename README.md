@@ -141,3 +141,191 @@ Data Science | Machine Learning | Healthcare Analytics
 ## 📜 Disclaimer
 
 This project is intended for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment.
+
+# Fertility Health Analysis using Advanced EDA
+
+## 📌 Project Overview
+
+This project explores a Fertility Health Dataset using Advanced Exploratory Data Analysis (EDA) techniques to uncover patterns, relationships, and factors that may influence fertility outcomes.
+
+The analysis aims to provide data-driven insights into reproductive health by examining demographic, lifestyle, and medical attributes through statistical analysis and visualizations.
+
+---
+
+## 🎯 Objectives
+
+* Understand the distribution of fertility-related health indicators.
+* Identify factors associated with fertility outcomes.
+* Explore correlations among reproductive health variables.
+* Perform comprehensive exploratory data analysis.
+* Generate meaningful insights through data visualization.
+
+---
+
+## 📊 Dataset Description
+
+The dataset contains various fertility-related attributes, which may include:
+
+* Age
+* Lifestyle Factors
+* Smoking Habits
+* Alcohol Consumption
+* Medical History
+* Reproductive Health Indicators
+* Environmental Factors
+* Fertility Diagnosis/Outcome
+
+*Note: The exact features depend on the dataset used.*
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+## 📈 Advanced Exploratory Data Analysis (EDA)
+
+### Data Understanding
+
+* Dataset overview
+* Data types inspection
+* Statistical summary
+* Missing value analysis
+
+### Data Cleaning
+
+* Handling missing values
+* Duplicate detection
+* Data consistency checks
+
+### Univariate Analysis
+
+* Histograms
+* Distribution plots
+* Count plots
+* Box plots
+* Outlier detection
+
+### Bivariate Analysis
+
+* Scatter plots
+* Group comparisons
+* Relationship analysis between features and fertility outcomes
+
+### Multivariate Analysis
+
+* Correlation Heatmaps
+* Pairwise Feature Analysis
+* Feature Interaction Study
+
+### Statistical Insights
+
+* Correlation analysis
+* Trend identification
+* Health factor impact assessment
+
+---
+
+## 📂 Project Structure
+
+```text
+Fertility-Health-Analysis/
+│
+├── Fertility_Health_Analysis.ipynb
+├── fertility_dataset.csv
+└── README.md
+```
+
+---
+
+## 📊 Visualizations Included
+
+* Feature Distributions
+* Box Plots for Outlier Detection
+* Correlation Heatmaps
+* Scatter Plot Analysis
+* Pairplots
+* Count Plots
+* Comparative Health Metrics Visualizations
+
+---
+
+## 🔍 Key Insights
+
+* Analysis of fertility-related health patterns.
+* Identification of influential health and lifestyle factors.
+* Exploration of relationships among reproductive health indicators.
+* Detection of trends and correlations through advanced visualization techniques.
+
+---
+
+## ▶️ How to Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Fertility-Health-Analysis.git
+```
+
+### Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+### Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### Open
+
+```text
+Fertility_Health_Analysis.ipynb
+```
+
+and run all cells.
+
+---
+
+## 🚀 Future Enhancements
+
+* Fertility Prediction using Machine Learning
+* Feature Importance Analysis
+* Interactive Dashboard Development
+* Healthcare Risk Assessment Models
+* Predictive Analytics for Fertility Outcomes
+
+---
+
+## 📚 Skills Demonstrated
+
+* Exploratory Data Analysis (EDA)
+* Data Cleaning & Preprocessing
+* Statistical Analysis
+* Data Visualization
+* Healthcare Analytics
+* Python Programming
+* Insight Generation
+
+---
+
+## 👩‍💻 Author
+
+Swati Keshri
+
+Data Science | Machine Learning | Healthcare Analytics
+
+---
+
+## 📜 Disclaimer
+
+This project is intended for educational and research purposes only. The results should not be interpreted as medical advice or clinical recommendations.
