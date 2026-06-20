@@ -1,147 +1,143 @@
-# 🧠 AI Journalist Agent
+# PCOS Health Analysis
 
-> 🚀 An AI-powered journalist that researches, writes, and edits high-quality articles automatically.
+## 📌 Project Overview
 
----
+This project focuses on analyzing health-related data associated with **Polycystic Ovary Syndrome (PCOS)** to identify patterns, risk factors, and key indicators that may contribute to early detection and better understanding of the condition.
 
-## 📸 Demo Screenshot
-
-![App Screenshot](assets/screenshot.png)
+The analysis is performed using Python in a Jupyter Notebook and includes data preprocessing, exploratory data analysis (EDA), visualization, and health insights.
 
 ---
 
-## ✨ Features
+## 🎯 Objectives
 
-* 🔍 Real-time web search using DuckDuckGo
-* 🌐 Automatic content extraction from articles
-* ✍️ AI-generated high-quality articles
-* 📰 Professional editing and refinement
-* 🧠 Catchy headline generation
-* 🔗 Source transparency
-
----
-
-## 🏗️ Architecture
-
-This project follows a **multi-agent pipeline**:
-
-1. **Searcher Agent** → Finds relevant links
-2. **Scraper Tool** → Extracts content from web pages
-3. **Writer Agent** → Generates article using AI
-4. **Editor Agent** → Refines and improves article
-5. **Headline Generator** → Creates engaging titles
+* Explore PCOS-related health data.
+* Identify factors associated with PCOS diagnosis.
+* Analyze relationships between clinical and lifestyle variables.
+* Visualize trends and patterns in the dataset.
+* Generate insights that can support healthcare research and awareness.
 
 ---
 
-## ⚙️ Tech Stack
+## 📊 Dataset Description
 
-* 🐍 Python
-* 🖥️ Streamlit
-* 🤖 Cohere API
-* 🔍 DuckDuckGo Search
-* 🌐 BeautifulSoup
+The dataset contains health-related attributes commonly associated with PCOS, such as:
+
+* Age
+* Body Mass Index (BMI)
+* Weight
+* Height
+* Menstrual Cycle Information
+* Hormonal Indicators
+* Blood Sugar Levels
+* Lifestyle Factors
+* PCOS Diagnosis Status
+
+*Note: Actual features may vary depending on the dataset used.*
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Technologies Used
 
-```
-ai_journalist_agent/
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+## 📈 Analysis Performed
+
+### Data Preprocessing
+
+* Data loading and inspection
+* Handling missing values
+* Data cleaning and formatting
+
+### Exploratory Data Analysis (EDA)
+
+* Distribution analysis of health indicators
+* Correlation analysis
+* PCOS vs Non-PCOS comparisons
+* Statistical summaries
+
+### Data Visualization
+
+* Histograms
+* Box Plots
+* Count Plots
+* Correlation Heatmaps
+* Feature Relationship Analysis
+
+---
+
+## 📂 Project Structure
+
+```text
+PCOS-Health-Analysis/
 │
-├── app/
-│   ├── main.py
-│   ├── config.py
-│   │
-│   ├── agents/
-│   │   ├── searcher.py
-│   │   ├── writer.py
-│   │   ├── editor.py
-│   │
-│   ├── tools/
-│   │   ├── scraper.py
-│
-├── .env
-├── requirements.txt
+├── PCOS_Health_Analysis.ipynb
+├── PCOS_data.csv
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## ▶️ How to Run
 
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/AI-Journalist-Agent.git
-cd AI-Journalist-Agent/app
-```
-
-### 2️⃣ Install Dependencies
+1. Clone the repository:
 
 ```bash
-pip install -r ../requirements.txt
+git clone https://github.com/yourusername/PCOS-Health-Analysis.git
 ```
 
-### 3️⃣ Add API Key
-
-Create `.env` file:
-
-```env
-COHERE_API_KEY=your_api_key_here
-```
-
-### 4️⃣ Run the App
+2. Install dependencies:
 
 ```bash
-streamlit run main.py
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+3. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Open and run:
+
+```text
+PCOS_Health_Analysis.ipynb
 ```
 
 ---
 
-## 🧪 Example Topic
+## 🔍 Key Insights
 
-```
-Impact of Artificial Intelligence on Healthcare
-```
-
----
-
-## ⚠️ Important Notes
-
-* Never commit `.env` file
-* API keys must be kept secure
-* Some websites may block scraping
+* Identification of health metrics strongly associated with PCOS.
+* Comparison of clinical characteristics between PCOS and non-PCOS groups.
+* Visualization of correlations among health indicators.
+* Better understanding of factors that may contribute to PCOS risk.
 
 ---
 
-## 🔥 Future Improvements
+## 🚀 Future Improvements
 
-* 🧠 Fact-checking agent
-* 📊 SEO optimization
-* 🌍 Deployment (Streamlit Cloud)
-* 📚 Memory with vector DB (FAISS)
-
----
-
-## 💼 Use Cases
-
-* Blog writing automation
-* News article generation
-* Content creation tools
-* AI writing assistants
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
+* Develop machine learning models for PCOS prediction.
+* Create an interactive healthcare dashboard.
+* Incorporate larger and more diverse datasets.
+* Perform feature importance analysis for risk assessment.
 
 ---
 
 ## 👩‍💻 Author
 
-**Swati Keshri**
+Swati Keshri
+
+Data Science | Machine Learning | Healthcare Analytics
 
 ---
 
-💡 *Built with AI + curiosity*
+## 📜 Disclaimer
+
+This project is intended for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment.
